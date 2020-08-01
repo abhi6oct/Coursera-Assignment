@@ -1,0 +1,62 @@
+* {
+	box-sizing:border-box;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+section {
+	background-color: 	#33ccff;
+	border: 1px solid green;
+	margin:10px;
+}
+
+section>h2 {
+	float: right;
+	border: 1px solid red;
+	text-align: center;
+	margin:auto;
+	width:100px;
+	height: 30px;
+}
+section>p{
+	padding-top: 15px;
+}
+
+.Chicken>h2 {
+	background-color: #ff9f80;
+}
+.Beef>h2 {
+	background-color: #33ff33;
+}
+.Shushi>h2 {
+	background-color: #33adff;
+}
+
+@media (min-width: 992px){
+	.lg{
+		float: left;
+		width: 33.33%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.mds,.mdl{
+		float:left;
+	}
+	.mds{
+		width:50%;
+	}
+	.mdl{
+		width:100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.sm{
+		float: left;
+		width: 100%;
+	}
+}
